@@ -1,6 +1,8 @@
 # MySQL
 mysql学习
 MySQL学习笔记之基本定义
+问题：
+navicate的安装，不知道如何更新权限；
 
 标签（空格分隔）： MySQL 数据库
 数据库定义
