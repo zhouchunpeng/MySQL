@@ -48,13 +48,8 @@ LIMIT 限制返回行的数量。
 DISTINCT
 ```
 
-![image-20190401101219819](https://github.com/voidspiral/Datawhale/blob/master/mysql/img/task2-1.png)
-
 ```sql
 SELECT DISTINCT jobtitle FROM employees;
-```
-
-![image-20190401101349233](https://github.com/voidspiral/Datawhale/blob/master/mysql/img/task2-2.png)
 
 ##### 前N个语句
 
@@ -70,7 +65,7 @@ FROM customers
 LIMIT 5;
 ```
 
-![task2-3.png](https://github.com/voidspiral/Datawhale/blob/master/mysql/img/task2-3.png)
+
 
 也可以实现M至N(某一段的)记录查询
 
@@ -86,7 +81,7 @@ LIMIT 2, 5;
 
 其中offset为从第几条（M+1）记录开始，recnum为返回的记录条数。
 
-![task2-4.png](https://github.com/voidspiral/Datawhale/blob/master/mysql/img/task2-4.png)
+)
 
 #### CASE...END判断语句
 
@@ -129,7 +124,7 @@ WHERE子句允许根据指定的过滤表达式或条件来指定要选择的行
 
 #### 可用于 WHERE 子句中的比较运算符
 
-![task2-5.png](https://github.com/voidspiral/Datawhale/blob/master/mysql/img/task2-5.png)
+
 
 ```mysql
 BETWEEN 运算符
@@ -464,7 +459,7 @@ HAVING COUNT(Email) > 1;
 
 说明：所有电子邮箱都是小写字母。
 
-![task2-ans1.png](https://github.com/voidspiral/Datawhale/blob/master/mysql/img/task2-ans1.png)
+
 
 项目二：查找大国（难度：简单）
 
@@ -507,4 +502,4 @@ FROM
 WHERE	area > 3000000 or (population > 25000000 AND gdp > 20000000);
 ```
 
-![task2-ans2.png](https://github.com/voidspiral/Datawhale/blob/master/mysql/img/task2-ans2.png)
+
